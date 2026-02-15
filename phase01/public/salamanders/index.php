@@ -6,19 +6,18 @@
 // id=2, salamanderName = Pigeon Mountain Salamander
 // id=3', salamanderName = ZigZag Salamander
 // id=4,  salamanderName= Slimy Salamander  
-?>
-<?php
+
 $salamanders = [
   ['id' => 1, 'name' => 'Red-Legged Salamander'],
   ['id' => 2, 'name' => 'Pigeon Mountain Salamander'],
   ['id' => 3, 'name' => 'ZigZag Salamander'],
   ['id' => 4, 'name' => 'Slimy Salamander']
 ];
-?>
+
  
-<!-- Add the pageTitle for salamanders
-Include a shared path to the salamander header -->
-<?php 
+// Add the pageTitle for salamanders
+// Include a shared path to the salamander header
+
 $pageTitle = 'Salamanders';
 include(SHARED_PATH . '/salamander-header.php');
 ?>
